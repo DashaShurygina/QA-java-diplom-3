@@ -17,7 +17,6 @@ import java.util.Objects;
 
 public class LogoutTest {
     private WebDriver driver;
-    private UserActions userActions = new UserActions();
     private String accessToken;
 
     @Before

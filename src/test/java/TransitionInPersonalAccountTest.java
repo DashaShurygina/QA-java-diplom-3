@@ -18,7 +18,6 @@ import java.util.Objects;
 
 public class TransitionInPersonalAccountTest {
     private WebDriver driver;
-    private UserActions userActions = new UserActions();
     private String accessToken;
 
     @Before

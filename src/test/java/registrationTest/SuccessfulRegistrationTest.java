@@ -21,7 +21,6 @@ import java.util.Random;
 @RunWith(Parameterized.class)
 public class SuccessfulRegistrationTest {
     private WebDriver driver;
-    private UserActions userActions = new UserActions();
     private String accessToken;
 
     @Before
